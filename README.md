@@ -1,4 +1,4 @@
-The Photo Editor application allows users to upload and edit raster images (JPEG, PNG, etc.). It provides a range of functionalities for image manipulation and enhancement, offering an intuitive interface for both basic and advanced editing tasks. The app was developed in HTML, CSS and JavaScript.
+**The Photo Editor** application allows users to upload and edit raster images (JPEG, PNG, etc.). It provides a range of functionalities for image manipulation and enhancement, offering an intuitive interface for both basic and advanced editing tasks. The app was developed in HTML, CSS and JavaScript.
 
 **The functionalities of the app:**
 
