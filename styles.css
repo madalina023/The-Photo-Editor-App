@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 100vh;
+    place-items: center;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #editor-container {
+    width: 35%;
+    height: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  #editor-container h1 {
+    text-align: center;
+    margin: 5px 0;
+    text-shadow: 1px 1px 4px rgb(82, 72, 57);
+    color: #edb37a;
+    display: flex;
+    justify-content: center;
+  }
+  .editor-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 5px;
+  }
+  .editor-image {
+    width: 400px;
+    height: 360px;
+    object-fit: contain;
+  }
+  #canvas {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding: 5px; 
+  }
+  
+  label {
+    display: inline;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  #fileInput {
+    display: none;
+  }
+  
+  select,
+  input,
+  button {
+    margin: 5px 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #edb37a;
+    color: #fff;
+    opacity: 80%;
+  }
+  
+  button:hover {
+    background-color: rgb(109, 98, 80);
+  }
+  
+  input[type="text"] {
+    border: 1px solid #edb37a;
+    width: auto;
+  }
+  
+  input[type="color"] {
+    height: 30px;
+    background-color: #edb37a;
+    opacity: 80%;
+  }
+  
+  input[type="number"] {
+    width: auto;
+    border: 1px solid #edb37a;
+  }
+  
+  #effect {
+    border: 1px solid #edb37a;
+  }
+  
+  .effectMake {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .textMake {
+    width: auto;
+    display: inline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .textMake2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #textPosition {
+    width: auto;
+    border: 1px solid #edb37a;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  hr {
+    height: 10px;
+    border: none;
+  }
+  
+  @media (max-width: 768px) {
+    #editor-container {
+      width: 100%;
+    }
+  }
+  
